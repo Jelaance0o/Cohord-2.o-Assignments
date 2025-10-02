@@ -1,0 +1,85 @@
+@font-face {
+    font-family: alu;
+    src: url(HelveticaNeueRoman.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:alu;
+}
+div{
+   text-align: center;
+   width: 90%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+#name{
+    background-color: rgb(37, 37, 90);
+    padding-top: 50px;
+    color: antiquewhite;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-left:0px ;
+}
+#about{
+    background-color: rgb(255, 255, 255);
+    padding: 170px;
+    padding-right: 170px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 10px;
+}
+#education{
+    background-color: rgb(226, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#skills{
+    background-color:rgb(255, 239, 218);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+#projects {
+    background-color: rgb(234, 219, 255);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: rgb(230, 255, 229);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.para{
+        background-color:rgb(255, 255, 255);
+        width: 400px;
+        padding: 10px;
+        margin: 15px auto;
+        text-align: center;
+        border-radius: 10px;
+        align-items:center;
+        font-size: small;
+        font-weight: 100;
+    }
+footer{
+    background-color: #0d0030;
+    color: #fff9f9;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
