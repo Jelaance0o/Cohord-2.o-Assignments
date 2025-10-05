@@ -6,9 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Montserrat;
 }
-
 html,
 body {
     height: 100%;
@@ -86,7 +84,7 @@ h1{
 }
 #main #third{
     height: 320px;
-    top: 38%;
+    top: 37%;
     left: 45%;
     border: 5px black;
     border-radius: 4px;
