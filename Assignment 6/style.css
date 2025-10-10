@@ -1,0 +1,450 @@
+@font-face {
+    font-family: neue;
+    src:url(HelveticaNeue-Light.otf);
+}
+@font-face {
+    font-family: neuebold;
+    src: url(./HelveticaNeue-Bold.otf);
+}
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+font-family: neue;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content:space-around
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#nav_left{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+#nav_left img{
+    height: 100%;
+    width: 150px;
+    border-radius: 0%;
+    object-fit: cover;
+}
+#nav a{
+    padding-top: 0px;
+    color: rgba(116, 116, 116, 0.874);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all ease 0.3s;
+}
+#nav a:hover{
+    text-shadow: #3A3546 20px;
+    transform: scale(1.1);
+    color: rgb(45, 45, 45)
+}
+
+#nav #icon{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 40px;
+}
+#nav #icon button{
+    background-color: rgb(58, 58, 58);
+    font-style: bold;
+        transition: all ease 0.5s;
+        color: white;
+}
+#nav #icon button:hover{
+    background-color: #fff;
+    border: 1px solid #000000;
+    color: #3A3546;
+}
+/* --------------------------MAIN------------------- */
+#left{  
+    margin-top: 2%;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    font-style: bold;
+    text-align: left; 
+    padding-bottom: 50px;
+}
+
+#icon button{
+    padding: 12px 20px;
+    background-color:#efefef;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: 500;
+    margin: 19px;
+    margin-left: 0%;
+    transition: all ease 0.3s;
+    border: 1px solid #000000;
+}
+#icon button:hover{
+    background-color: #fff;
+    color: #3A3546;
+    transform: scale(1.1);
+}
+#icon i{
+    padding: 8px;
+}
+#icon span i{
+    position: relative;
+    left: 93%;
+    bottom: 26%;
+    background-color:#EA4C89;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+    z-index: 20;
+}
+#icon span:hover i{
+    background-color:#e96698;
+}
+#icon input{
+    height: 55px ;
+    width:650px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    font-style: px;
+    background-color:rgb(236, 236, 236);
+    color: black;
+    transition: all ease 0.3s;
+}
+#icon input:hover{
+    box-shadow: 2px 2px 20px black;
+            color: #ffffff;
+            transform: scale(1.1);
+        
+}
+#text h1{
+    font-family:neuebold;
+    font-size: 55px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    transition: all ease 0.4s;
+}
+#text h1:hover{
+
+    transform: scale(1.1);
+}
+#left p{
+    padding-top: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    padding-right: 230px;
+    transition: all ease 0.2s;
+}
+#text p:hover {
+    transform: scale(1.1);
+}
+#btm button{
+    background-color: rgb(236, 236, 236);
+    color: black;
+    padding: 8px 18px;
+    border-radius: 30px;
+    border: 1px solid rgb(184, 184, 184);
+    transition: all ease 0.3s;
+    margin: 4px;
+}
+#btm button:hover{
+        background-color: #fff;
+            color: #3A3546;
+            transform: scale(1.1);
+}
+#btm label{
+    font-size: 13px;
+    font-family: neuebold;
+}
+#right{
+    margin: 30px;
+    height: 70%;
+    width: 40%;
+    background-color: rgba(186, 12, 12, 0.992);
+    background-image: url(https://cdn.uistore.design/assets/images/travel-agency-free-landing-page.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all ease 0.2s;
+    border-radius: 10px;
+}
+#right:hover{
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+#long{
+    width: 90%;
+    height: 60px;
+    background-color:#F8F8FC;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    margin: 0px 80px;
+    border-radius: 20px;
+    color: rgb(74, 74, 74);
+}
+#long button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-family: neuebold;
+    margin-right: 20px;
+    transition: all ease 0.2s;
+}
+#long button:hover{
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    transform: scale(0.9);
+}
+
+
+/* -------------CARD CONTAINER---------- */
+
+#filter
+{
+    width: 95%;
+    height: 80px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+#filter a{
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    transition: all ease 0.2s;
+}
+#filter a:hover{
+    text-shadow: 2px 2px 20px rgb(204, 204, 204);
+    transform: scale(1.1);
+}
+#filter button{
+    background-color: #ffffff47;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: all ease 0.3s;
+}
+#filter button:hover{
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.348);
+            transform: scale(1.1);
+}
+#card_ctnr{
+    margin: 15px;
+    width: 99%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-evenly;
+
+    gap: 20px;
+}
+.card{
+
+    margin-bottom: 5px;
+    height: 270px;
+    width: 360px;
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bottom{
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(transparent ,black);
+    position: absolute;
+    bottom: -30%;
+    transition: all ease 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.card:hover .bottom{
+    bottom: 0%;
+}
+.bottom h3{
+    color: white;
+}
+.bottom i {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.btm_text{
+    margin-left: 6px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    transition: all ease 0.2s;
+}
+.btm_text:hover{
+    text-shadow: 2px 2px 20px rgb(0, 238, 255);
+    transform: scale(0.9);
+
+}
+section{
+        flex-wrap: wrap;
+}
+.btm_text img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    
+}
+
+/* -----------------INFINITE SCROLL============== */
+#parent {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 2%;
+    height: 300px;
+    width: calc(100% - 20px);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 20px;
+
+}
+
+#parent::-webkit-scrollbar {
+    display: none;
+}
+
+#parent .child {
+    height: 170px;
+    width: 360px;
+    flex-shrink: 0;
+    /* overflow: hidden; */
+}
+
+.child img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+.child img:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 20px rgb(75, 75, 75);
+}
+
+/* -----------------footer------------- */
+
+footer{
+    /* background-color: rgba(0, 0, 0, 0.334); */
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+#upper{
+    height: 40px;
+    /* background-color: aqua; */
+    margin:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#upper a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all ease 0.3s;
+}
+#upper a:hover{
+        text-shadow: #3A3546 20px;
+            transform: scale(1.1);
+            color: rgb(10, 10, 10)
+
+}
+#upper i{
+    font-size: 20xp;
+    color: #000000;
+}
+#upper i:hover{
+            text-shadow: #3A3546 20px;
+                transform: scale(1.2);
+                color: rgb(10, 10, 10)
+}
+#upper img{
+    height: 100%;
+    object-fit: cover;
+}
+#down{
+    height: 40px;
+    /* background-color: rgb(250, 37, 37); */
+    margin:30px;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 40px;
+}
+#dleft{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#dright{
+        align-items: center;
+            display: flex;
+}
+#down a{
+        text-decoration: none;
+         color: #686868;
+         font-weight: 500;
+         font-size: 14px;
+         padding: 20px;
+        transition: all ease 0.3s;
+}
+#down a:hover{
+            text-shadow: #3A3546 20px;
+            transform: scale(1.2);
+            color: rgb(10, 10, 10)
+}
