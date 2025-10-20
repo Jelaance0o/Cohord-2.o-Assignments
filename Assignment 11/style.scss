@@ -8,7 +8,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family: helvetica neue;
+    font-family: Blanka;
 }
 // main section:nth-child(1)
 //   grid-template-rows: 60px 800px 250px 760px 40%;
@@ -17,31 +17,44 @@ body {
 
 main{
     width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: 25rem 25rem;
-    grid-template-rows: 25rem 25rem 25rem 25rem ;
+    grid-template-columns: 25rem 25rem 25rem 25rem;
+    grid-template-rows: 37rem 19rem ;
     grid-template-areas: "div1 div2 div2 div2"
                          "div1 div3 div4 div5";
     overflow: hidden;
 
     #div1{
-        background-color: aqua;
         grid-area: div1;
+        background-image:url(https://i.pinimg.com/1200x/de/05/01/de050184c6f4d1b9f48004f389f941bf.jpg);
+        background-position: center;
+        background-size: cover;
     }
     #div2{
-        background-color: rgb(200, 255, 0);
+        background-image:url(https://i.pinimg.com/1200x/6f/65/c2/6f65c2a617098b542f98fa7006ab77c4.jpg);
         grid-area: div2;
+        background-position: center;
+        background-size: cover;
     }
     #div3{
-        background-color: rgb(255, 0, 128);
+        background-image: url(https://i.pinimg.com/1200x/02/4d/46/024d462953bee3b8b36618fbf8afcfd8.jpg);
+            background-position: bottom;
+                background-size: cover;
         grid-area: div3;
     }
     #div4{
-        background-color: rgb(255, 34, 0);
+        background-image: url(https://i.pinimg.com/736x/25/52/b0/2552b0c0fd13683530392866a10fc2e2.jpg);
+                    background-position: center;
+                        background-size: cover;
         grid-area: div4;
     }
     #div5{
         background-color: rgb(15, 255, 75);
         grid-area: div5;
+        background-image: url(https://i.pinimg.com/736x/c2/3a/2e/c23a2e1f38d8ee354136149b153ded79.jpg);
+                            background-position: center;
+                                background-size: cover;
     }
+
 }
