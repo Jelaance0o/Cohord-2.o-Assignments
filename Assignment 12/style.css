@@ -84,7 +84,39 @@ main section.view1 .bottom #text button {
   border-radius: 30px;
   border: none;
 }
-
+main section.view2 {
+  margin: 1rem;
+  color: rgb(244, 244, 244);
+}
+main section.view2 .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  margin: 2rem;
+}
+main section.view2 .top .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  font-family: chillx;
+  text-align: center;
+  justify-content: flex-end;
+}
+main section.view2 .top .text h1 {
+  font-size: 2.3rem;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-bottom: 1rem;
+}
+main section.view2 .top .text p {
+  font-size: 0.9rem;
+  opacity: 50%;
+}
+main section.view2 .bottom img {
+  width: 100%;
+  border-radius: 10px;
+}
 @media (min-width: 900px) {
   main section.view1 {
     flex-direction: row;
