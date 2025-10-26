@@ -49,7 +49,7 @@ main section.view1 .top img {
 }
 main section.view1 .bottom {
   color: whitesmoke;
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   width: 100%;
   padding: 1.5rem;
   border-radius: 10px;
@@ -85,60 +85,44 @@ main section.view1 .bottom #text button {
   border: none;
 }
 main section.view2 {
-  margin: 1rem;
-  color: rgb(244, 244, 244);
-}
-main section.view2 .top {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 3rem;
-  margin: 2rem;
-}
-main section.view2 .top .text {
-  display: flex;
-  flex-direction: column;
-  gap: 0rem;
-  font-family: chillx;
-  text-align: center;
-  justify-content: flex-end;
-}
-main section.view2 .top .text h1 {
-  font-size: 2.3rem;
-  font-weight: 400;
-  line-height: 1.6;
-  padding-bottom: 1rem;
-}
-main section.view2 .top .text p {
-  font-size: 0.9rem;
-  opacity: 50%;
-}
-main section.view2 .bottom img {
   width: 100%;
-  border-radius: 10px;
+  padding: 1rem;
+  color: rgb(254, 254, 254);
 }
+main section.view2 .top .element small,
+main section.view2 .bottom .element small {
+  opacity: 60%;
+}
+main section.view2 .top .element h2,
+main section.view2 .bottom .element h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
 @media (min-width: 900px) {
   main section.view1 {
     flex-direction: row;
-    gap: 1rem;
+    padding: 1rem 1rem;
   }
-  main section.view1 .top, main section.view1 .bottom {
+  main section.view1 .top,
+  main section.view1 .bottom {
     width: 50%;
   }
   main section.view1 .bottom {
-    font-size: 1.3rem;
-    padding: 5rem;
+    padding: 3rem;
     justify-content: space-between;
-    gap: 3rem;
   }
   main section.view1 .bottom #text {
-    justify-content: space-evenly;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   main section.view1 .bottom #text h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
   main section.view1 .bottom #text p {
-    font-size: 1.4rem;
+    width: 90%;
+    font-size: 1rem;
+  }
+  main section.view2 {
+    flex-direction: row;
   }
 }
